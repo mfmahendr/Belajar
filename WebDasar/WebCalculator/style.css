@@ -1,11 +1,11 @@
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
     font-family: sans-serif;
 }
 
+
+/* Class */
 .display{
     background-color:#333333;
     color: rgb(255, 255, 255);
@@ -25,9 +25,7 @@ body {
     text-align: right;
 }
 
-.flex-container-row{
-    display: flex;
-}
+.flex-container-row{ display: flex; }
 
 .button{
     flex-basis: 25%;
@@ -41,13 +39,9 @@ body {
     cursor: pointer;
 }
 
-.button:hover{
-    font-weight: bolder;
-}
+.button:hover{ font-weight: bolder; }
 
-.double{
-    flex-basis: 50%;
-}
+.double{ flex-basis: 50%; }
 
 .negative, .operator, .equals {
     background: orange;
@@ -59,3 +53,17 @@ body {
     padding: 30px;
     margin-top: 20px;
 }
+
+
+/* Media Query */
+@media screen and (max-width: 550px) {
+    .button {
+        padding: 10px;
+    }
+ }
+
+ @media screen and (max-width: 300px) {
+    .button {
+        padding: 1px;
+    }
+ }

@@ -6,6 +6,15 @@ body {
     font-family: sans-serif;
 }
 
+.display{
+    background-color:#333333;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: 1px solid black;
+    width: 100%;
+    font-size: 2em;
+}
+
 .flex-container-column {
     display: flex;
     flex-direction: column;
@@ -32,6 +41,21 @@ body {
     cursor: pointer;
 }
 
+.button:hover{
+    font-weight: bolder;
+}
+
 .double{
     flex-basis: 50%;
+}
+
+.negative, .operator, .equals {
+    background: orange;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 20px;
 }
